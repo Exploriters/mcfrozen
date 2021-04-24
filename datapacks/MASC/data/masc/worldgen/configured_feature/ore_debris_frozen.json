@@ -1,0 +1,35 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "target": {
+			  "block": "minecraft:blue_ice",
+			  "predicate_type": "minecraft:block_match"
+            },
+            "state": {
+              "Name": "minecraft:ancient_debris"
+            },
+            "size": 3
+          },
+          "type": "minecraft:no_surface_ore"
+        },
+        "decorator": {
+          "config": {
+            "bottom_offset": 0,
+            "top_offset": 0,
+            "maximum": 128
+          },
+          "type": "minecraft:range"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {},
+      "type": "minecraft:square"
+    }
+  },
+  "type": "minecraft:decorated"
+}

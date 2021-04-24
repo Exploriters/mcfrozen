@@ -1,0 +1,14 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:powder_snow"
+    },
+    "under_material": {
+      "Name": "minecraft:powder_snow"
+    },
+    "underwater_material": {
+      "Name": "minecraft:powder_snow"
+    }
+  },
+  "type": "minecraft:default"
+}

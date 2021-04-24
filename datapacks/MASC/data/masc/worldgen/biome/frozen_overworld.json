@@ -1,0 +1,86 @@
+{
+	"player_spawn_friendly": false,
+	"precipitation": "snow",
+	#"temperature_modifier": "frozen",
+	"temperature": -1,
+	"downfall": 0.5,
+	"category": "icy",
+	"depth": 0,
+	"scale": 1,
+	"effects": {
+		"mood_sound": {
+			"sound": "minecraft:ambient.cave",
+			"tick_delay": 6000,
+			"block_search_extent": 8,
+			"offset": 2.0
+		},
+		"sky_color": 8364543,
+		"fog_color": 12638463,
+		"water_color": 4159204,
+		"water_fog_color": 329011
+	},
+	"surface_builder": "masc:frozen",
+	"carvers": {
+		#"air": [
+		#	"minecraft:cave",
+		#	"minecraft:canyon"
+		#]
+	},
+	"features": [
+		[],
+		[
+		#	"minecraft:lake_water",
+		#	"minecraft:lake_lava"
+		],
+		[],
+		[
+		#	"minecraft:monster_room"
+		],
+		[
+		#	"minecraft:ice_spike",
+		#	"minecraft:ice_patch"
+		],
+		[],
+		[
+			"masc:ore_icywater_frozen",
+			"masc:ore_icyhoney_frozen",
+			"masc:ore_icyslime_frozen",
+			"masc:ore_amethyst_frozen",
+			"masc:ore_redstone_frozen",
+			"masc:ore_diamond_frozen",
+			"masc:ore_iron_frozen",
+			"masc:ore_lapis_frozen",
+			"masc:ore_copper_frozen",
+			"masc:ore_emerald_frozen",
+			"masc:ore_coal_frozen",
+			"masc:ore_gold_frozen"
+			#,
+			#"masc:ore_quartz_frozen",
+			#"masc:ore_debris_frozen"
+		],
+		[],
+		[
+		],
+		[
+			"minecraft:freeze_top_layer"
+		]
+	],
+	"starts": [
+		"minecraft:stronghold"
+	],
+	"creature_spawn_probability": 0.05,
+	"spawners": {
+		"monster": [
+		],
+		"creature": [
+		],
+		"ambient": [
+		],
+		"water_creature": [
+		],
+		"water_ambient": [
+		],
+		"misc": []
+	},
+	"spawn_costs": {}
+}

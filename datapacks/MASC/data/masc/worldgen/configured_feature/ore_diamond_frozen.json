@@ -1,0 +1,37 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "target": {
+			  "block": "minecraft:blue_ice",
+			  "predicate_type": "minecraft:block_match"
+            },
+            "state": {
+              "Name": "minecraft:diamond_ore"
+            },
+            "size": 20
+          },
+          "type": "minecraft:no_surface_ore"
+        },
+        "decorator": {
+          "config": {
+            "bottom_offset": 0,
+            "top_offset": 0,
+            "maximum": 64
+          },
+          "type": "minecraft:range"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 20
+      },
+      "type": "minecraft:square"
+    }
+  },
+  "type": "minecraft:decorated"
+}
